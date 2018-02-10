@@ -5,5 +5,8 @@ package com.brevitaz;
  * @project first
  **/
 public class A {
+    void print(){
+        System.out.println(getClass().getName());
+    }
 
 }

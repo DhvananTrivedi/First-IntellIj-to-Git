@@ -5,4 +5,7 @@ package com.brevitaz;
  * @project first
  **/
 public class B extends A {
+    void print(){
+        System.out.println(getClass().getName());
+    }
 }
